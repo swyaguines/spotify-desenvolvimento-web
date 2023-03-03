@@ -1,0 +1,97 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+.logo-spotify {
+	max-width: 40px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 70px;
+	top: 15px;
+  }
+  
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #000;
+	padding: 23px;
+	margin-bottom: 120px;
+  }
+
+.menu li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+body{
+	background-image:url("img/back\ form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+form {
+	margin: 40px 0;
+	width:500px;
+  	margin: 0 auto;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+    color: #ffffff;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: rgb(8, 6, 2);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 2s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(255, 0, 0);
+}
+
+footer {
+	text-align: center;
+	background:black;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
